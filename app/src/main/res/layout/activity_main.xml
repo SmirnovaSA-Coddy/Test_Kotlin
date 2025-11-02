@@ -14,17 +14,17 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:textStyle="bold"
+        android:gravity="center"
         android:text="Добро пожаловать в ONYX!" />
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:backgroundTint="#1D4234"
+        android:gravity="center"
         android:text="Начать покупки"
         android:textColor="#EDE6DD" />
 
@@ -36,7 +36,7 @@
         android:contentDescription="Логотип магазина"
         android:layout_marginTop="20dp"/>
 
-<!--    <View-->
+<!--        <View-->
 <!--        android:id="@+id/view"-->
 <!--        android:layout_width="200dp"-->
 <!--        android:layout_height="120dp"-->
