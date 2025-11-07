@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/second"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:id="@+id/second"
+    android:background="#1D4234"
+    >
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/catalogContainer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Добро пожаловать на второй экран" />
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp">
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
 
